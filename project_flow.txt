@@ -1,0 +1,3 @@
+1. download necessary libraries like seaborn , mlflow 
+2. then run command "mlflow ui" (this generates the ui in local to review our experiments)
+3. then run the file file1.py and see the experiment in mlflow ui

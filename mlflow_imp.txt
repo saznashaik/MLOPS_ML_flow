@@ -1,0 +1,86 @@
+What You Can Track with MLflow
+
+MLflow provides a comprehensive way to track every aspect of your machine learning lifecycle—from experimentation to deployment. Below is a well-organized overview of what you can log and manage.
+
+1. Metrics 📊
+
+Track performance indicators across runs to compare and evaluate models:
+
+Accuracy, Loss (training & validation)
+Precision, Recall, F1-score
+AUC (Area Under the Curve)
+Regression metrics (RMSE, MAE, etc.)
+Any custom numeric metric
+2. Parameters ⚙️
+
+Log configuration values that define how your model is trained:
+
+Model hyperparameters (learning rate, depth, epochs, etc.)
+Data preprocessing settings (train-test split, scaling methods)
+Feature engineering configurations
+3. Artifacts 📁
+
+Store outputs and files generated during experiments:
+
+Trained models and checkpoints
+Model summaries or architecture diagrams
+Visualizations (confusion matrix, ROC curves, loss plots)
+Feature importance charts
+Datasets (training/testing samples)
+Code files (scripts, notebooks)
+Environment configs (requirements.txt, conda.yaml)
+4. Models 🤖
+
+Manage and reuse models in different formats:
+
+Serialized models (e.g., Pickle)
+Cross-platform formats (e.g., ONNX)
+Custom models using MLflow’s model interface
+5. Tags 🏷️
+
+Add metadata to organize and filter experiments:
+
+Run-level tags (author, purpose, model type)
+Environment tags (GPU usage, cloud provider, etc.)
+6. Source Code Tracking 💻
+
+Ensure reproducibility by linking experiments to code:
+
+Scripts or notebooks used
+Git commit hash for version control
+Dependency versions and libraries
+7. Inputs & Outputs 🔄
+
+Keep track of what goes into and comes out of your model:
+
+Training and validation datasets
+Test datasets
+Model predictions and inference outputs
+8. Custom Logging 🧩
+
+Extend tracking beyond standard elements:
+
+Custom Python objects
+Additional files or intermediate outputs
+User-defined functions or components
+9. Model Registry 🗂️
+
+Manage model lifecycle and deployment:
+
+Version control for models
+Stage transitions (e.g., Staging, Production)
+Deployment tracking and management
+10. Run & Experiment Metadata ⏱️
+
+Organize and monitor experiments efficiently:
+
+Unique Run ID for each execution
+Experiment names to group runs
+Start/end timestamps and duration
+Summary
+
+MLflow acts as a central tracking system for machine learning workflows, helping you:
+
+Compare experiments easily
+Reproduce results reliably
+Manage models throughout their lifecycle
