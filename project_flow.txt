@@ -18,4 +18,8 @@ Version - 3 (adding autolog)
     then push to git
     Note: autolog is to create all the logs that we wantedly make eith mlflow tracking apis (eg.,mlflow.log_artifact()) that can be done automatically
 
+Version - 4 (hyper Parameters tuning)
+    1. here we are taking a complete different model breast cancer and code it to hyperparameters_tuning.py
+    2. run the file and see the thing in mlflow ui and make model registery to version models 
+
 
