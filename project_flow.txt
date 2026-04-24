@@ -1,3 +1,13 @@
-1. download necessary libraries like seaborn , mlflow 
-2. then run command "mlflow ui" (this generates the ui in local to review our experiments)
-3. then run the file file1.py and see the experiment in mlflow ui
+version - 1 (mlflow in localhost)
+    1. download necessary libraries like seaborn , mlflow 
+    2. then run command "mlflow ui" (this generates the ui in local to review our experiments)
+    3. then run the file file1.py ("python src/file1.py") and see the experiment in mlflow ui
+
+version - 2 (mlflow in remote (used dagshub))
+    1. sign in into dagshub website and connect repo 
+    2. it will give an url (remote - everyone can use)
+    3. copy the code of file1.py to another file and do some changes (see dags_hub_code.py)
+    4. run the file and see changes in the remote url 
+    Note: dagshub is used because it atomatically takes care of everything of mlflow like database and artifacts but if we want we can use cloud also
+    
+
